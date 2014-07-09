@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E4D2DD19550429003931AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E4D2DC19550429003931AA /* Foundation.framework */; };
+		10E4D2DF19550429003931AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E4D2DE19550429003931AA /* CoreGraphics.framework */; };
+		10E4D2E119550429003931AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E4D2E019550429003931AA /* UIKit.framework */; };
+		10E4D2E719550429003931AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10E4D2E519550429003931AA /* InfoPlist.strings */; };
+		10E4D2E919550429003931AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E4D2E819550429003931AA /* main.m */; };
+		10E4D2ED19550429003931AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E4D2EC19550429003931AA /* AppDelegate.m */; };
+		10E4D2F019550429003931AA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E4D2EE19550429003931AA /* Main_iPhone.storyboard */; };
+		10E4D2F319550429003931AA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E4D2F119550429003931AA /* Main_iPad.storyboard */; };
+		10E4D2F619550429003931AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E4D2F519550429003931AA /* ViewController.m */; };
+		10E4D2F819550429003931AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E4D2F719550429003931AA /* Images.xcassets */; };
+		10E4D2FF19550429003931AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E4D2FE19550429003931AA /* XCTest.framework */; };
+		10E4D30019550429003931AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E4D2DC19550429003931AA /* Foundation.framework */; };
+		10E4D30119550429003931AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E4D2E019550429003931AA /* UIKit.framework */; };
+		10E4D30919550429003931AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10E4D30719550429003931AA /* InfoPlist.strings */; };
+		10E4D30B19550429003931AA /* CarValetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E4D30A19550429003931AA /* CarValetTests.m */; };
+		10E4D316195504AD003931AA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E4D315195504AD003931AA /* Car.m */; };
+		10FC33AB196B500B00B2D8A2 /* CarEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FC33AA196B500B00B2D8A2 /* CarEditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10E4D30219550429003931AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10E4D2D119550429003931AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10E4D2D819550429003931AA;
+			remoteInfo = CarValet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10A475EA196C4A77007AA2D5 /* CarEditViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarEditViewControllerProtocol.h; sourceTree = "<group>"; };
+		10E4D2D919550429003931AA /* CarValet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarValet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E4D2DC19550429003931AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10E4D2DE19550429003931AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10E4D2E019550429003931AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10E4D2E419550429003931AA /* CarValet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarValet-Info.plist"; sourceTree = "<group>"; };
+		10E4D2E619550429003931AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10E4D2E819550429003931AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10E4D2EA19550429003931AA /* CarValet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarValet-Prefix.pch"; sourceTree = "<group>"; };
+		10E4D2EB19550429003931AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10E4D2EC19550429003931AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10E4D2EF19550429003931AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		10E4D2F219550429003931AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		10E4D2F419550429003931AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10E4D2F519550429003931AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10E4D2F719550429003931AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10E4D2FD19550429003931AA /* CarValetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarValetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E4D2FE19550429003931AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		10E4D30619550429003931AA /* CarValetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarValetTests-Info.plist"; sourceTree = "<group>"; };
+		10E4D30819550429003931AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10E4D30A19550429003931AA /* CarValetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarValetTests.m; sourceTree = "<group>"; };
+		10E4D314195504AD003931AA /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		10E4D315195504AD003931AA /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		10FC33A9196B500B00B2D8A2 /* CarEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarEditViewController.h; sourceTree = "<group>"; };
+		10FC33AA196B500B00B2D8A2 /* CarEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarEditViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E4D2D619550429003931AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E4D2DF19550429003931AA /* CoreGraphics.framework in Frameworks */,
+				10E4D2E119550429003931AA /* UIKit.framework in Frameworks */,
+				10E4D2DD19550429003931AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E4D2FA19550429003931AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E4D2FF19550429003931AA /* XCTest.framework in Frameworks */,
+				10E4D30119550429003931AA /* UIKit.framework in Frameworks */,
+				10E4D30019550429003931AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E4D2D019550429003931AA = {
+			isa = PBXGroup;
+			children = (
+				10E4D2E219550429003931AA /* CarValet */,
+				10E4D30419550429003931AA /* CarValetTests */,
+				10E4D2DB19550429003931AA /* Frameworks */,
+				10E4D2DA19550429003931AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10E4D2DA19550429003931AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E4D2D919550429003931AA /* CarValet.app */,
+				10E4D2FD19550429003931AA /* CarValetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E4D2DB19550429003931AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E4D2DC19550429003931AA /* Foundation.framework */,
+				10E4D2DE19550429003931AA /* CoreGraphics.framework */,
+				10E4D2E019550429003931AA /* UIKit.framework */,
+				10E4D2FE19550429003931AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10E4D2E219550429003931AA /* CarValet */ = {
+			isa = PBXGroup;
+			children = (
+				10E4D2EB19550429003931AA /* AppDelegate.h */,
+				10E4D2EC19550429003931AA /* AppDelegate.m */,
+				10E4D2EE19550429003931AA /* Main_iPhone.storyboard */,
+				10A475EA196C4A77007AA2D5 /* CarEditViewControllerProtocol.h */,
+				10E4D2F119550429003931AA /* Main_iPad.storyboard */,
+				10E4D2F419550429003931AA /* ViewController.h */,
+				10E4D2F519550429003931AA /* ViewController.m */,
+				10FC33A9196B500B00B2D8A2 /* CarEditViewController.h */,
+				10FC33AA196B500B00B2D8A2 /* CarEditViewController.m */,
+				10E4D2F719550429003931AA /* Images.xcassets */,
+				10E4D2E319550429003931AA /* Supporting Files */,
+				10E4D314195504AD003931AA /* Car.h */,
+				10E4D315195504AD003931AA /* Car.m */,
+			);
+			path = CarValet;
+			sourceTree = "<group>";
+		};
+		10E4D2E319550429003931AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E4D2E419550429003931AA /* CarValet-Info.plist */,
+				10E4D2E519550429003931AA /* InfoPlist.strings */,
+				10E4D2E819550429003931AA /* main.m */,
+				10E4D2EA19550429003931AA /* CarValet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10E4D30419550429003931AA /* CarValetTests */ = {
+			isa = PBXGroup;
+			children = (
+				10E4D30A19550429003931AA /* CarValetTests.m */,
+				10E4D30519550429003931AA /* Supporting Files */,
+			);
+			path = CarValetTests;
+			sourceTree = "<group>";
+		};
+		10E4D30519550429003931AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10E4D30619550429003931AA /* CarValetTests-Info.plist */,
+				10E4D30719550429003931AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E4D2D819550429003931AA /* CarValet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E4D30E19550429003931AA /* Build configuration list for PBXNativeTarget "CarValet" */;
+			buildPhases = (
+				10E4D2D519550429003931AA /* Sources */,
+				10E4D2D619550429003931AA /* Frameworks */,
+				10E4D2D719550429003931AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarValet;
+			productName = CarValet;
+			productReference = 10E4D2D919550429003931AA /* CarValet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10E4D2FC19550429003931AA /* CarValetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E4D31119550429003931AA /* Build configuration list for PBXNativeTarget "CarValetTests" */;
+			buildPhases = (
+				10E4D2F919550429003931AA /* Sources */,
+				10E4D2FA19550429003931AA /* Frameworks */,
+				10E4D2FB19550429003931AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E4D30319550429003931AA /* PBXTargetDependency */,
+			);
+			name = CarValetTests;
+			productName = CarValetTests;
+			productReference = 10E4D2FD19550429003931AA /* CarValetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E4D2D119550429003931AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dBMEDx;
+				TargetAttributes = {
+					10E4D2FC19550429003931AA = {
+						TestTargetID = 10E4D2D819550429003931AA;
+					};
+				};
+			};
+			buildConfigurationList = 10E4D2D419550429003931AA /* Build configuration list for PBXProject "CarValet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E4D2D019550429003931AA;
+			productRefGroup = 10E4D2DA19550429003931AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E4D2D819550429003931AA /* CarValet */,
+				10E4D2FC19550429003931AA /* CarValetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E4D2D719550429003931AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E4D2F319550429003931AA /* Main_iPad.storyboard in Resources */,
+				10E4D2F819550429003931AA /* Images.xcassets in Resources */,
+				10E4D2F019550429003931AA /* Main_iPhone.storyboard in Resources */,
+				10E4D2E719550429003931AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E4D2FB19550429003931AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E4D30919550429003931AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E4D2D519550429003931AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E4D2F619550429003931AA /* ViewController.m in Sources */,
+				10E4D2ED19550429003931AA /* AppDelegate.m in Sources */,
+				10FC33AB196B500B00B2D8A2 /* CarEditViewController.m in Sources */,
+				10E4D316195504AD003931AA /* Car.m in Sources */,
+				10E4D2E919550429003931AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10E4D2F919550429003931AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E4D30B19550429003931AA /* CarValetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E4D30319550429003931AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10E4D2D819550429003931AA /* CarValet */;
+			targetProxy = 10E4D30219550429003931AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10E4D2E519550429003931AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E4D2E619550429003931AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10E4D2EE19550429003931AA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E4D2EF19550429003931AA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		10E4D2F119550429003931AA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E4D2F219550429003931AA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		10E4D30719550429003931AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E4D30819550429003931AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E4D30C19550429003931AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E4D30D19550429003931AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E4D30F19550429003931AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarValet/CarValet-Prefix.pch";
+				INFOPLIST_FILE = "CarValet/CarValet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10E4D31019550429003931AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarValet/CarValet-Prefix.pch";
+				INFOPLIST_FILE = "CarValet/CarValet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10E4D31219550429003931AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarValet.app/CarValet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarValet/CarValet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CarValetTests/CarValetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		10E4D31319550429003931AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarValet.app/CarValet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarValet/CarValet-Prefix.pch";
+				INFOPLIST_FILE = "CarValetTests/CarValetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E4D2D419550429003931AA /* Build configuration list for PBXProject "CarValet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E4D30C19550429003931AA /* Debug */,
+				10E4D30D19550429003931AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E4D30E19550429003931AA /* Build configuration list for PBXNativeTarget "CarValet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E4D30F19550429003931AA /* Debug */,
+				10E4D31019550429003931AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E4D31119550429003931AA /* Build configuration list for PBXNativeTarget "CarValetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E4D31219550429003931AA /* Debug */,
+				10E4D31319550429003931AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10E4D2D119550429003931AA /* Project object */;
+}
