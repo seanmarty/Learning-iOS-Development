@@ -8,6 +8,7 @@
 
 #import "DBMViewController.h"
 #import "DBMSliceImageCell.h"
+#import "DBMSliceViewerViewController.h"
 
 @interface DBMViewController ()
 
@@ -71,6 +72,19 @@
 {
     DBLog(@"%@", self.sliceImagesArray[indexPath.row]);
     [self performSegueWithIdentifier:@"imageTapZoom" sender:collectionView];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"imageTapZoom"]) {
+        UICollectionView *slicesCollectionView = sender;
+        NSArray *selectedPaths =  [slicesCollectionView indexPathsForSelectedItems];
+        NSIndexPath *selectedImagesPath = [selectedPaths firstObject];
+        DBLog(@"zoom for %@: %zd", slicesCollectionView, selectedImagesPath.row);
+        
+        DBMSliceViewerViewController *destination = segue.destinationViewController;
+        destination.image = [UIImage imageNamed:self.sliceImagesArray[selectedImagesPath.row]];
+    }
 }
 
 

@@ -30,6 +30,7 @@
 		10C340A11992A03400CDE002 /* firstScanPlane6.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C340991992A03400CDE002 /* firstScanPlane6.png */; };
 		10C340A21992A03400CDE002 /* firstScanPlane7.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C3409A1992A03400CDE002 /* firstScanPlane7.png */; };
 		10C340A51992A6E800CDE002 /* DBMSliceImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C340A41992A6E800CDE002 /* DBMSliceImageCell.m */; };
+		10FB275F19954BDB00B21CEF /* DBMSliceViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB275E19954BDB00B21CEF /* DBMSliceViewerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		10C3409A1992A03400CDE002 /* firstScanPlane7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstScanPlane7.png; sourceTree = "<group>"; };
 		10C340A31992A6E800CDE002 /* DBMSliceImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMSliceImageCell.h; sourceTree = "<group>"; };
 		10C340A41992A6E800CDE002 /* DBMSliceImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMSliceImageCell.m; sourceTree = "<group>"; };
+		10FB275D19954BDB00B21CEF /* DBMSliceViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMSliceViewerViewController.h; sourceTree = "<group>"; };
+		10FB275E19954BDB00B21CEF /* DBMSliceViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMSliceViewerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				10C3406F19929FEA00CDE002 /* Main.storyboard */,
 				10C3407219929FEA00CDE002 /* DBMViewController.h */,
 				10C3407319929FEA00CDE002 /* DBMViewController.m */,
+				10FB275D19954BDB00B21CEF /* DBMSliceViewerViewController.h */,
+				10FB275E19954BDB00B21CEF /* DBMSliceViewerViewController.m */,
 				10C340A31992A6E800CDE002 /* DBMSliceImageCell.h */,
 				10C340A41992A6E800CDE002 /* DBMSliceImageCell.m */,
 				10C3407519929FEA00CDE002 /* Images.xcassets */,
@@ -297,6 +302,7 @@
 			files = (
 				10C340A51992A6E800CDE002 /* DBMSliceImageCell.m in Sources */,
 				10C3406E19929FEA00CDE002 /* DBMAppDelegate.m in Sources */,
+				10FB275F19954BDB00B21CEF /* DBMSliceViewerViewController.m in Sources */,
 				10C3406A19929FEA00CDE002 /* main.m in Sources */,
 				10C3407419929FEA00CDE002 /* DBMViewController.m in Sources */,
 			);
@@ -503,6 +509,7 @@
 				10C3408E19929FEA00CDE002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10C3408F19929FEA00CDE002 /* Build configuration list for PBXNativeTarget "LearningCollectionView2Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				10C3409119929FEA00CDE002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
