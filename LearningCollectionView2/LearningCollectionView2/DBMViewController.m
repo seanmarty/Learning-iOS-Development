@@ -70,6 +70,7 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     DBLog(@"%@", self.sliceImagesArray[indexPath.row]);
+    [self performSegueWithIdentifier:@"imageTapZoom" sender:collectionView];
 }
 
 
